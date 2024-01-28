@@ -1,0 +1,41 @@
+{
+  "modelName": "texture",
+  "name": "Pregunta9",
+  "identifier": "texture:1479-5c837734-69e5-4dd8-9022-0de843d86059",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "2f9980f021a009d590a917788d03b7ab",
+  "assetLocator": "textures/Pregunta9.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "exportConfigurations": [
+    "textureExportConfig:25987-5c837734-69e5-4dd8-9022-0de843d86059",
+    "textureExportConfig:26675-5c837734-69e5-4dd8-9022-0de843d86059",
+    "textureExportConfig:27483-5c837734-69e5-4dd8-9022-0de843d86059"
+  ],
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 250,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 480,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "2f9980f021a009d590a917788d03b7ab",
+      "colorCount": 60,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 0.9904557683768729,
+      "pixelsHigh": 250,
+      "pixelsWide": 480
+    }
+  ]
+}

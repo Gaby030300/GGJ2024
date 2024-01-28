@@ -1,14 +1,14 @@
 {
   "modelName": "defaultMaterial",
-  "name": "Questions",
-  "identifier": "defaultMaterial:806334-7d9ee77f-91e0-46d2-84fb-2f08627e03ed",
+  "name": "Answers",
+  "identifier": "defaultMaterial:824062-7d9ee77f-91e0-46d2-84fb-2f08627e03ed",
   "alphaTestEnabled": false,
   "alphaTestThreshold": 0,
   "blendMode": "alpha",
   "colorEncoding": "linear",
   "cullMode": "back",
   "diffuseFactor": "0xffffffff",
-  "diffuseTextureName": "sequenceTexture:779819-7d9ee77f-91e0-46d2-84fb-2f08627e03ed",
+  "diffuseTextureName": "sequenceTexture:781375-7d9ee77f-91e0-46d2-84fb-2f08627e03ed",
   "diffuseTextureTransform": {
     "offsetU": 0,
     "offsetV": 0,

@@ -8,7 +8,7 @@
   "colorEncoding": "linear",
   "cullMode": "back",
   "diffuseFactor": "0xffffffff",
-  "diffuseTextureName": "texture:795732-7d9ee77f-91e0-46d2-84fb-2f08627e03ed",
+  "diffuseTextureName": "texture:2569-5c837734-69e5-4dd8-9022-0de843d86059",
   "diffuseTextureTransform": {
     "offsetU": 0,
     "offsetV": 0,
@@ -51,7 +51,7 @@
     "scaleU": 1,
     "scaleV": 1
   },
-  "readDepth": true,
+  "readDepth": false,
   "reflectiveTextureTransform": {
     "offsetU": 0,
     "offsetV": 0,
@@ -68,7 +68,7 @@
     "scaleV": 1
   },
   "transparency": 1,
-  "writeDepth": true,
+  "writeDepth": false,
   "writesToColorBufferAlpha": true,
   "writesToColorBufferBlue": true,
   "writesToColorBufferGreen": true,

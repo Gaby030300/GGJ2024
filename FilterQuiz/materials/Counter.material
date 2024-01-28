@@ -51,7 +51,7 @@
     "scaleU": 1,
     "scaleV": 1
   },
-  "readDepth": true,
+  "readDepth": false,
   "reflectiveTextureTransform": {
     "offsetU": 0,
     "offsetV": 0,
@@ -68,7 +68,7 @@
     "scaleV": 1
   },
   "transparency": 1,
-  "writeDepth": true,
+  "writeDepth": false,
   "writesToColorBufferAlpha": true,
   "writesToColorBufferBlue": true,
   "writesToColorBufferGreen": true,
