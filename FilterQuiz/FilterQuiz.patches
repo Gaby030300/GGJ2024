@@ -1,0 +1,76 @@
+{
+  "id": "4816107d9ee77f91e046d284fb2f08627e03ed",
+  "revision": "4816117d9ee77f91e046d284fb2f08627e03ed",
+  "version": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 176
+  },
+  "creatorIdentifier": "com.facebook.arstudio.skylight",
+  "creatorPlatform": "windows",
+  "creatorFileVersion": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 176
+  },
+  "visual_programming": {
+    "graphs": [
+      {
+        "modelName": "patch_graph",
+        "identifier": "patch_graph:481700-7d9ee77f-91e0-46d2-84fb-2f08627e03ed",
+        "subpatches": [
+          "consumer_patch_model:889280-7d9ee77f-91e0-46d2-84fb-2f08627e03ed",
+          "consumer_patch_model:889282-7d9ee77f-91e0-46d2-84fb-2f08627e03ed",
+          "consumer_patch_model:889284-7d9ee77f-91e0-46d2-84fb-2f08627e03ed",
+          "consumer_patch_model:889286-7d9ee77f-91e0-46d2-84fb-2f08627e03ed"
+        ]
+      }
+    ],
+    "patches": [
+      {
+        "modelName": "consumer_patch_model",
+        "name": "Questions",
+        "identifier": "consumer_patch_model:889280-7d9ee77f-91e0-46d2-84fb-2f08627e03ed",
+        "object": "sequenceTexture:779819-7d9ee77f-91e0-46d2-84fb-2f08627e03ed",
+        "objectProperty": "current_frame",
+        "position": [
+          404,
+          236
+        ]
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "R Answer",
+        "identifier": "consumer_patch_model:889282-7d9ee77f-91e0-46d2-84fb-2f08627e03ed",
+        "object": "sequenceTexture:781375-7d9ee77f-91e0-46d2-84fb-2f08627e03ed",
+        "objectProperty": "current_frame",
+        "position": [
+          404,
+          140
+        ]
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "Counter",
+        "identifier": "consumer_patch_model:889284-7d9ee77f-91e0-46d2-84fb-2f08627e03ed",
+        "object": "sequenceTexture:787122-7d9ee77f-91e0-46d2-84fb-2f08627e03ed",
+        "objectProperty": "current_frame",
+        "position": [
+          404,
+          44
+        ]
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "L Answer",
+        "identifier": "consumer_patch_model:889286-7d9ee77f-91e0-46d2-84fb-2f08627e03ed",
+        "object": "sequenceTexture:781568-7d9ee77f-91e0-46d2-84fb-2f08627e03ed",
+        "objectProperty": "current_frame",
+        "position": [
+          404,
+          -52
+        ]
+      }
+    ]
+  }
+}

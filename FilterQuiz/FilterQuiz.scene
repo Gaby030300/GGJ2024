@@ -171,6 +171,257 @@
                     "y": 0.25,
                     "z": 0.3
                   }
+                },
+                {
+                  "modelName": "facetracker",
+                  "name": "faceTracker0",
+                  "identifier": "facetracker:868250-7d9ee77f-91e0-46d2-84fb-2f08627e03ed",
+                  "animationMask": {
+                    "position": false,
+                    "rotation": false,
+                    "scale": false
+                  },
+                  "cameraVisibility": "back|front",
+                  "faceId": 0,
+                  "hidden": false,
+                  "layerIdentifier": "layer0",
+                  "outputVisibility": "preview|capture",
+                  "physicsEnabled": false,
+                  "tags": [],
+                  "transform": {
+                    "rx": 0,
+                    "ry": 0,
+                    "rz": 0,
+                    "sx": 1,
+                    "sy": 1,
+                    "sz": 1,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "children": [
+                    {
+                      "modelName": "sceneObject",
+                      "name": "Cards",
+                      "identifier": "sceneObject:849516-7d9ee77f-91e0-46d2-84fb-2f08627e03ed",
+                      "animationMask": {
+                        "position": false,
+                        "rotation": false,
+                        "scale": false
+                      },
+                      "cameraVisibility": "back|front",
+                      "hidden": false,
+                      "layerIdentifier": "layer0",
+                      "outputVisibility": "preview|capture",
+                      "physicsEnabled": false,
+                      "shapeColor": "0xff808080",
+                      "shapeType": 0,
+                      "tags": [],
+                      "transform": {
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "children": [
+                        {
+                          "modelName": "plane",
+                          "name": "Start",
+                          "identifier": "plane:840038-7d9ee77f-91e0-46d2-84fb-2f08627e03ed",
+                          "animationMask": {
+                            "position": false,
+                            "rotation": false,
+                            "scale": false
+                          },
+                          "cameraVisibility": "back|front",
+                          "castShadow": false,
+                          "hidden": false,
+                          "horizontalAlignment": "center",
+                          "horizontalSpacing": 0,
+                          "isMaterialIdentifierEnabled": true,
+                          "layerIdentifier": "layer0",
+                          "materialIdentifier": "defaultMaterial:805701-7d9ee77f-91e0-46d2-84fb-2f08627e03ed",
+                          "outputVisibility": "preview|capture",
+                          "physicsEnabled": false,
+                          "receiveShadow": false,
+                          "renderPass": "main_scene",
+                          "tags": [],
+                          "textureHeight": 0.1,
+                          "textureWidth": 0.1,
+                          "transform": {
+                            "rx": 0.08108183741569519,
+                            "ry": -0.03487233817577362,
+                            "rz": 0.030470741912722588,
+                            "sx": 0.9999999403953552,
+                            "sy": 1,
+                            "sz": 0.9999998211860657,
+                            "x": -0.0088479183614254,
+                            "y": 0.07836473733186722,
+                            "z": -0.004610002040863037
+                          },
+                          "verticalAlignment": "center",
+                          "verticalSpacing": 0
+                        },
+                        {
+                          "modelName": "plane",
+                          "name": "R Answers",
+                          "identifier": "plane:840165-7d9ee77f-91e0-46d2-84fb-2f08627e03ed",
+                          "animationMask": {
+                            "position": false,
+                            "rotation": false,
+                            "scale": false
+                          },
+                          "cameraVisibility": "back|front",
+                          "castShadow": false,
+                          "hidden": false,
+                          "horizontalAlignment": "center",
+                          "horizontalSpacing": 0,
+                          "isMaterialIdentifierEnabled": true,
+                          "layerIdentifier": "layer0",
+                          "materialIdentifier": "defaultMaterial:815898-7d9ee77f-91e0-46d2-84fb-2f08627e03ed",
+                          "outputVisibility": "preview|capture",
+                          "physicsEnabled": false,
+                          "receiveShadow": false,
+                          "renderPass": "main_scene",
+                          "tags": [],
+                          "textureHeight": 0.1,
+                          "textureWidth": 0.1,
+                          "transform": {
+                            "rx": 0,
+                            "ry": -0,
+                            "rz": 0,
+                            "sx": 0.9999996423721313,
+                            "sy": 1,
+                            "sz": 0.9999998211860657,
+                            "x": 0.05848395451903343,
+                            "y": -0.14784805476665497,
+                            "z": 0.0000013113021850585938
+                          },
+                          "verticalAlignment": "center",
+                          "verticalSpacing": 0
+                        },
+                        {
+                          "modelName": "plane",
+                          "name": "L Answers",
+                          "identifier": "plane:840522-7d9ee77f-91e0-46d2-84fb-2f08627e03ed",
+                          "animationMask": {
+                            "position": false,
+                            "rotation": false,
+                            "scale": false
+                          },
+                          "cameraVisibility": "back|front",
+                          "castShadow": false,
+                          "hidden": false,
+                          "horizontalAlignment": "center",
+                          "horizontalSpacing": 0,
+                          "isMaterialIdentifierEnabled": true,
+                          "layerIdentifier": "layer0",
+                          "materialIdentifier": "defaultMaterial:824062-7d9ee77f-91e0-46d2-84fb-2f08627e03ed",
+                          "outputVisibility": "preview|capture",
+                          "physicsEnabled": false,
+                          "receiveShadow": false,
+                          "renderPass": "main_scene",
+                          "tags": [],
+                          "textureHeight": 0.1,
+                          "textureWidth": 0.1,
+                          "transform": {
+                            "rx": 0,
+                            "ry": -0,
+                            "rz": 0,
+                            "sx": 0.9999996423721313,
+                            "sy": 1,
+                            "sz": 0.9999998211860657,
+                            "x": -0.053111352026462555,
+                            "y": -0.14896588027477264,
+                            "z": 0.0000019669532775878906
+                          },
+                          "verticalAlignment": "center",
+                          "verticalSpacing": 0
+                        },
+                        {
+                          "modelName": "plane",
+                          "name": "Question",
+                          "identifier": "plane:840881-7d9ee77f-91e0-46d2-84fb-2f08627e03ed",
+                          "animationMask": {
+                            "position": false,
+                            "rotation": false,
+                            "scale": false
+                          },
+                          "cameraVisibility": "back|front",
+                          "castShadow": false,
+                          "hidden": false,
+                          "horizontalAlignment": "center",
+                          "horizontalSpacing": 0,
+                          "isMaterialIdentifierEnabled": true,
+                          "layerIdentifier": "layer0",
+                          "materialIdentifier": "defaultMaterial:806334-7d9ee77f-91e0-46d2-84fb-2f08627e03ed",
+                          "outputVisibility": "preview|capture",
+                          "physicsEnabled": false,
+                          "receiveShadow": false,
+                          "renderPass": "main_scene",
+                          "tags": [],
+                          "textureHeight": 0.1,
+                          "textureWidth": 0.1,
+                          "transform": {
+                            "rx": 0.08108183741569519,
+                            "ry": -0.03487233817577362,
+                            "rz": 0.030470741912722588,
+                            "sx": 0.9999999403953552,
+                            "sy": 1,
+                            "sz": 0.9999998211860657,
+                            "x": -0.0088479183614254,
+                            "y": 0.07836473733186722,
+                            "z": -0.004610002040863037
+                          },
+                          "verticalAlignment": "center",
+                          "verticalSpacing": 0
+                        },
+                        {
+                          "modelName": "plane",
+                          "name": "Counter",
+                          "identifier": "plane:841242-7d9ee77f-91e0-46d2-84fb-2f08627e03ed",
+                          "animationMask": {
+                            "position": false,
+                            "rotation": false,
+                            "scale": false
+                          },
+                          "cameraVisibility": "back|front",
+                          "castShadow": false,
+                          "hidden": false,
+                          "horizontalAlignment": "center",
+                          "horizontalSpacing": 0,
+                          "isMaterialIdentifierEnabled": true,
+                          "layerIdentifier": "layer0",
+                          "materialIdentifier": "defaultMaterial:807029-7d9ee77f-91e0-46d2-84fb-2f08627e03ed",
+                          "outputVisibility": "preview|capture",
+                          "physicsEnabled": false,
+                          "receiveShadow": false,
+                          "renderPass": "main_scene",
+                          "tags": [],
+                          "textureHeight": 0.1,
+                          "textureWidth": 0.1,
+                          "transform": {
+                            "rx": 0.08108183741569519,
+                            "ry": -0.03487233817577362,
+                            "rz": 0.030470741912722588,
+                            "sx": 0.9999999403953552,
+                            "sy": 1,
+                            "sz": 0.9999998211860657,
+                            "x": -0.010259573347866535,
+                            "y": 0.12072805315256119,
+                            "z": -0.0011677145957946777
+                          },
+                          "verticalAlignment": "center",
+                          "verticalSpacing": 0
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
