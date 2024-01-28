@@ -1,14 +1,14 @@
 {
   "modelName": "defaultMaterial",
-  "name": "Starts",
-  "identifier": "defaultMaterial:805701-7d9ee77f-91e0-46d2-84fb-2f08627e03ed",
+  "name": "Fail",
+  "identifier": "defaultMaterial3674091-5c837734-69e5-4dd8-9022-0de843d86059",
   "alphaTestEnabled": false,
   "alphaTestThreshold": 0,
   "blendMode": "alpha",
   "colorEncoding": "linear",
   "cullMode": "back",
   "diffuseFactor": "0xffffffff",
-  "diffuseTextureName": "texture:3755845-5c837734-69e5-4dd8-9022-0de843d86059",
+  "diffuseTextureName": "texture:3672700-5c837734-69e5-4dd8-9022-0de843d86059",
   "diffuseTextureTransform": {
     "offsetU": 0,
     "offsetV": 0,

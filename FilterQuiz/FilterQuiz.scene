@@ -515,6 +515,44 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "modelName": "plane",
+                  "name": "Fail",
+                  "identifier": "plane:3673768-5c837734-69e5-4dd8-9022-0de843d86059",
+                  "animationMask": {
+                    "position": false,
+                    "rotation": false,
+                    "scale": false
+                  },
+                  "cameraVisibility": "back|front",
+                  "castShadow": false,
+                  "hidden": false,
+                  "horizontalAlignment": "center",
+                  "horizontalSpacing": 0,
+                  "isMaterialIdentifierEnabled": true,
+                  "layerIdentifier": "layer1",
+                  "materialIdentifier": "defaultMaterial3674091-5c837734-69e5-4dd8-9022-0de843d86059",
+                  "outputVisibility": "preview|capture",
+                  "physicsEnabled": false,
+                  "receiveShadow": false,
+                  "renderPass": "main_scene",
+                  "tags": [],
+                  "textureHeight": 0.1,
+                  "textureWidth": 0.1,
+                  "transform": {
+                    "rx": 0,
+                    "ry": -0,
+                    "rz": 0,
+                    "sx": 2,
+                    "sy": 1,
+                    "sz": 1,
+                    "x": -0.0000017802231013774872,
+                    "y": -0.04615919291973114,
+                    "z": 0
+                  },
+                  "verticalAlignment": "center",
+                  "verticalSpacing": 0
                 }
               ]
             }

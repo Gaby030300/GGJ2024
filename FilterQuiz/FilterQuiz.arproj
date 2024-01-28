@@ -62,9 +62,6 @@
           "sourceTextureIdentifier": "textureGroup:4879-5c837734-69e5-4dd8-9022-0de843d86059"
         },
         {
-          "sectionFileLocation": "textures/Title.texture"
-        },
-        {
           "modelName": "textureGroup",
           "name": "Question[1-10]",
           "identifier": "textureGroup:1485-5c837734-69e5-4dd8-9022-0de843d86059",
@@ -353,6 +350,12 @@
         },
         {
           "sectionFileLocation": "textures/Cover.texture"
+        },
+        {
+          "sectionFileLocation": "textures/Fail.texture"
+        },
+        {
+          "sectionFileLocation": "textures/Title-2.texture"
         }
       ]
     },
@@ -649,23 +652,6 @@
         {
           "modelName": "textureExportConfig",
           "identifier": "textureExportConfig:27483-5c837734-69e5-4dd8-9022-0de843d86059",
-          "method": "fastest"
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:28293-5c837734-69e5-4dd8-9022-0de843d86059",
-          "method": "fastest",
-          "targetFormat": 1
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:29105-5c837734-69e5-4dd8-9022-0de843d86059",
-          "method": "fastest",
-          "targetFormat": 2
-        },
-        {
-          "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:29919-5c837734-69e5-4dd8-9022-0de843d86059",
           "method": "fastest"
         },
         {
@@ -1517,6 +1503,40 @@
           "modelName": "textureExportConfig",
           "identifier": "textureExportConfig:466142-5c837734-69e5-4dd8-9022-0de843d86059",
           "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:3675911-5c837734-69e5-4dd8-9022-0de843d86059",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:3676985-5c837734-69e5-4dd8-9022-0de843d86059",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:3678061-5c837734-69e5-4dd8-9022-0de843d86059",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:3757991-5c837734-69e5-4dd8-9022-0de843d86059",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:3759065-5c837734-69e5-4dd8-9022-0de843d86059",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:3760141-5c837734-69e5-4dd8-9022-0de843d86059",
+          "method": "fastest"
         }
       ]
     },
@@ -1643,7 +1663,7 @@
       "effectUsesFaceTrueScale": false,
       "effectUsesFaceWave": false,
       "effectUsesFacialExpressionRecognition": false,
-      "effectUsesFacialGestureRecognition": false,
+      "effectUsesFacialGestureRecognition": true,
       "effectUsesFieldOfView": false,
       "effectUsesFingerTracking": false,
       "effectUsesFonts": false,
@@ -1806,7 +1826,7 @@
       "faceExpressionFittingRTRRetargetingMinVersion": 1,
       "faceTrackerIsEnabled": false,
       "faceTrackerMaxFaces": 1,
-      "faceTrackerMinVersion": 10,
+      "faceTrackerMinVersion": 13,
       "facewaveMinVersion": 1,
       "hairSegmentationMinVersion": 1,
       "handTrackerMaxHands": 2,
@@ -1889,6 +1909,9 @@
       "children": [
         {
           "sectionFileLocation": "materials/Starts-2.material"
+        },
+        {
+          "sectionFileLocation": "materials/Fail.material"
         },
         {
           "sectionFileLocation": "materials/Cover.material"
