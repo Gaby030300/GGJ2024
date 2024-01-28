@@ -1,6 +1,6 @@
 {
   "id": "4816107d9ee77f91e046d284fb2f08627e03ed",
-  "revision": "4816117d9ee77f91e046d284fb2f08627e03ed",
+  "revision": "14023600a184280b1f445cd9c0ef6c931a36c0c",
   "version": {
     "dev": 0,
     "patch": 0,
@@ -110,6 +110,14 @@
         "fromPort": "1001",
         "toPatch": "template_patch_model:1262707-5c837734-69e5-4dd8-9022-0de843d86059",
         "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:1328055-0a184280-b1f4-45cd-9c0e-f6c931a36c0c",
+        "fromPatch": "template_patch_model:3672670-5c837734-69e5-4dd8-9022-0de843d86059",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:3672680-5c837734-69e5-4dd8-9022-0de843d86059",
+        "toPort": "2"
       },
       {
         "modelName": "patch_connection_model",
@@ -281,35 +289,11 @@
       },
       {
         "modelName": "patch_connection_model",
-        "identifier": "patch_connection_model:3672678-5c837734-69e5-4dd8-9022-0de843d86059",
-        "fromPatch": "template_patch_model:3672670-5c837734-69e5-4dd8-9022-0de843d86059",
-        "fromPort": "100",
-        "toPatch": "template_patch_model:3672676-5c837734-69e5-4dd8-9022-0de843d86059",
-        "toPort": "1"
-      },
-      {
-        "modelName": "patch_connection_model",
         "identifier": "patch_connection_model:3672682-5c837734-69e5-4dd8-9022-0de843d86059",
         "fromPatch": "template_patch_model:323695-0a184280-b1f4-45cd-9c0e-f6c931a36c0c",
         "fromPort": "100",
         "toPatch": "template_patch_model:3672680-5c837734-69e5-4dd8-9022-0de843d86059",
         "toPort": "1"
-      },
-      {
-        "modelName": "patch_connection_model",
-        "identifier": "patch_connection_model:3672686-5c837734-69e5-4dd8-9022-0de843d86059",
-        "fromPatch": "template_patch_model:3672676-5c837734-69e5-4dd8-9022-0de843d86059",
-        "fromPort": "100",
-        "toPatch": "template_patch_model:3672684-5c837734-69e5-4dd8-9022-0de843d86059",
-        "toPort": "1"
-      },
-      {
-        "modelName": "patch_connection_model",
-        "identifier": "patch_connection_model:3672688-5c837734-69e5-4dd8-9022-0de843d86059",
-        "fromPatch": "template_patch_model:3672684-5c837734-69e5-4dd8-9022-0de843d86059",
-        "fromPort": "100",
-        "toPatch": "template_patch_model:3672680-5c837734-69e5-4dd8-9022-0de843d86059",
-        "toPort": "2"
       },
       {
         "modelName": "patch_connection_model",
@@ -574,9 +558,7 @@
           "template_patch_model:3671634-5c837734-69e5-4dd8-9022-0de843d86059",
           "template_patch_model:3672664-5c837734-69e5-4dd8-9022-0de843d86059",
           "template_patch_model:3672670-5c837734-69e5-4dd8-9022-0de843d86059",
-          "template_patch_model:3672676-5c837734-69e5-4dd8-9022-0de843d86059",
           "template_patch_model:3672680-5c837734-69e5-4dd8-9022-0de843d86059",
-          "template_patch_model:3672684-5c837734-69e5-4dd8-9022-0de843d86059",
           "template_patch_model:3672692-5c837734-69e5-4dd8-9022-0de843d86059",
           "template_patch_model:4005059-5c837734-69e5-4dd8-9022-0de843d86059",
           "template_patch_model:4005061-5c837734-69e5-4dd8-9022-0de843d86059",
@@ -1174,16 +1156,6 @@
       },
       {
         "modelName": "template_patch_model",
-        "name": "Pulse",
-        "identifier": "template_patch_model:3672676-5c837734-69e5-4dd8-9022-0de843d86059",
-        "position": [
-          812,
-          524
-        ],
-        "templateId": "builtin.pulse"
-      },
-      {
-        "modelName": "template_patch_model",
         "name": "And",
         "identifier": "template_patch_model:3672680-5c837734-69e5-4dd8-9022-0de843d86059",
         "position": [
@@ -1191,16 +1163,6 @@
           500
         ],
         "templateId": "builtin.binaryBoolAndOperator"
-      },
-      {
-        "modelName": "template_patch_model",
-        "name": "Switch",
-        "identifier": "template_patch_model:3672684-5c837734-69e5-4dd8-9022-0de843d86059",
-        "position": [
-          1172,
-          500
-        ],
-        "templateId": "builtin.toggle"
       },
       {
         "modelName": "template_patch_model",
