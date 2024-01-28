@@ -1782,7 +1782,7 @@
       "effectUsesUiPlanarBackend": false,
       "effectUsesUnifiedTargetTracking": false,
       "effectUsesUnitsScriptingModule": false,
-      "effectUsesVariadicMath": true,
+      "effectUsesVariadicMath": false,
       "effectUsesVertexTextureFetch": false,
       "effectUsesVisualShaders": false,
       "effectUsesVisualShadersSdf": false,
