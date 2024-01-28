@@ -350,6 +350,9 @@
               "sectionFileLocation": "textures/Res9-2.texture"
             }
           ]
+        },
+        {
+          "sectionFileLocation": "textures/Cover.texture"
         }
       ]
     },
@@ -1779,7 +1782,7 @@
       "effectUsesUiPlanarBackend": false,
       "effectUsesUnifiedTargetTracking": false,
       "effectUsesUnitsScriptingModule": false,
-      "effectUsesVariadicMath": false,
+      "effectUsesVariadicMath": true,
       "effectUsesVertexTextureFetch": false,
       "effectUsesVisualShaders": false,
       "effectUsesVisualShadersSdf": false,
@@ -1886,6 +1889,9 @@
       "children": [
         {
           "sectionFileLocation": "materials/Starts-2.material"
+        },
+        {
+          "sectionFileLocation": "materials/Cover.material"
         },
         {
           "sectionFileLocation": "materials/Answers.material"
