@@ -22,7 +22,10 @@
   "objects": [
     {
       "modelName": "assets_config_model",
-      "identifier": "assets_config_model:481807-7d9ee77f-91e0-46d2-84fb-2f08627e03ed"
+      "identifier": "assets_config_model:481807-7d9ee77f-91e0-46d2-84fb-2f08627e03ed",
+      "categoriesOrder": [
+        "blocks"
+      ]
     }
   ],
   "projectFormatType": "separated_files",
@@ -128,7 +131,7 @@
       "effectUsesAutomaticAlphaSort": false,
       "effectUsesAutomaticInstructions": true,
       "effectUsesBlockModulesConfigExtras": false,
-      "effectUsesBlocks": false,
+      "effectUsesBlocks": true,
       "effectUsesBlocksDownloadable": false,
       "effectUsesBlocksScripting": false,
       "effectUsesBodyTracking": false,
@@ -138,7 +141,7 @@
       "effectUsesCameraControl": false,
       "effectUsesCameraInfoScriptingModule": false,
       "effectUsesCameraShare": false,
-      "effectUsesComponentEvaluation": false,
+      "effectUsesComponentEvaluation": true,
       "effectUsesComposedLocally": false,
       "effectUsesComposedMaterial": false,
       "effectUsesControllers": false,
@@ -189,14 +192,14 @@
       "effectUsesFaceExpressionExperimental": false,
       "effectUsesFaceExpressionFitting": false,
       "effectUsesFaceExtraction": false,
-      "effectUsesFaceTracker": false,
-      "effectUsesFaceTracker3D": false,
+      "effectUsesFaceTracker": true,
+      "effectUsesFaceTracker3D": true,
       "effectUsesFaceTracker96": false,
       "effectUsesFaceTrackingScripting2D": false,
       "effectUsesFaceTrueScale": false,
       "effectUsesFaceWave": false,
       "effectUsesFacialExpressionRecognition": false,
-      "effectUsesFacialGestureRecognition": false,
+      "effectUsesFacialGestureRecognition": true,
       "effectUsesFieldOfView": false,
       "effectUsesFingerTracking": false,
       "effectUsesFonts": false,
@@ -220,7 +223,7 @@
       "effectUsesImageAntiAliasing": false,
       "effectUsesImageAssets": false,
       "effectUsesImageBasedLighting": false,
-      "effectUsesInstruction": false,
+      "effectUsesInstruction": true,
       "effectUsesIntent": false,
       "effectUsesInterEffectLinking": false,
       "effectUsesInternalScriptingAPI": false,
@@ -337,7 +340,7 @@
       "effectUsesUnitsScriptingModule": false,
       "effectUsesVariadicMath": false,
       "effectUsesVertexTextureFetch": false,
-      "effectUsesVisualShaders": false,
+      "effectUsesVisualShaders": true,
       "effectUsesVisualShadersSdf": false,
       "effectUsesVoiceInteraction": false,
       "effectUsesWarpPostProcessor": false,
@@ -359,7 +362,7 @@
       "faceExpressionFittingRTRRetargetingMinVersion": 1,
       "faceTrackerIsEnabled": false,
       "faceTrackerMaxFaces": 1,
-      "faceTrackerMinVersion": 10,
+      "faceTrackerMinVersion": 13,
       "facewaveMinVersion": 1,
       "hairSegmentationMinVersion": 1,
       "handTrackerMaxHands": 2,
@@ -435,6 +438,21 @@
     {
       "modelName": "input_mappings_model",
       "identifier": "input_mappings_model:481801-7d9ee77f-91e0-46d2-84fb-2f08627e03ed"
+    },
+    {
+      "modelName": "block_documents_model",
+      "identifier": "block_documents_model:481995-7d9ee77f-91e0-46d2-84fb-2f08627e03ed",
+      "children": [
+        {
+          "modelName": "block_model",
+          "name": "Quiz Filter",
+          "identifier": "block_model:779485-7d9ee77f-91e0-46d2-84fb-2f08627e03ed",
+          "assetDataHash": "f93ab9745c337176c2f0368d1d6187d8",
+          "assetLocator": "blocks/Quiz Filter/Quiz Filter.arblock",
+          "excludeDuringExport": true,
+          "isExternalAsset": true
+        }
+      ]
     }
   ]
 }
